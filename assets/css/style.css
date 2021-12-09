@@ -23,6 +23,42 @@ header .line {
     margin: auto;
 }
 
+.bar {
+    background-color: #117050;
+    height: 22px;
+    width: 168px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    line-height: 90px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #454545;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+}
+
+.button:hover{
+    color: #FFF;
+    background-color: #454545;
+}
+
 .header--area {
     display: flex;
     justify-content: space-between;
@@ -80,20 +116,44 @@ header .line {
     padding: 90px 0;
 }
 
-.banner h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 90px;
-    line-height: 90px;
-    margin: 0;
-    margin-bottom: 30px;
-}
-
 .banner img {
     width: 148px;
     border: 6px solid #117050;;
     border-radius: 50%;
     margin-top: 50px;
     margin-right: 40px;
+}
+
+.area-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area-1--content {
+    padding: 80px;
+}
+
+.area-1--quote {
+    margin-bottom: 30px;
+}
+
+.area-1--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area-1--img1 {
+    background-image: url(../images/f2.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+.area-1--img2 {
+    background-image: url(../images/f1.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
 }
 
 
