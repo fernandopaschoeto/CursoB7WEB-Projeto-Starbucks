@@ -228,6 +228,103 @@ h2 {
     background-position: left;
 }
 
+.area-5 {
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 80px;
+    text-align: center;
+}
+
+@media (max-width: 1140px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 860px){
+    .area-1 {
+        grid-template-columns: 3fr 2fr;
+    }
+    .area-2 {
+        grid-template-columns: 2fr 3fr;
+    }
+    .area-3 {
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+@media (max-width: 619px){
+    .header--search input {
+        max-width: 100px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .banner img {
+        width: 70px;
+        border: 6px solid #117050;;
+        margin-top: 50px;
+        margin-right: 10px;
+    }
+
+    .area-1 {
+        grid-template-columns: 1fr;
+    }
+
+    .area-1--content {
+        padding: 40px;
+    }
+    
+    .area-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .area-2--content {
+        padding: 40px;
+    }
+
+    .area-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .area-3--content {
+        padding: 40px;
+    }
+
+    .area-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .area-4--content {
+        padding: 40px;
+    }
+
+    .area-5 {
+        height: 200px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 40px 20px;
+    }
+
+}
+
 
 
 
